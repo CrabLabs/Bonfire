@@ -1,0 +1,29 @@
+#getit{
+	.container{
+		border-bottom: 1px solid $Smoke;
+		div{
+			display: inline-block;
+			padding: 20px;
+			width: 435px;
+			vertical-align: middle;
+			h1{
+				background-image: url(../images/logo_v2.png);
+				background-image: url(../images/logo_v2.svg), url(../images/logo_v2.png);
+				background-repeat: no-repeat;
+				background-size: cover;
+				display: inline-block;
+				height: 250px;
+				width: 250px;
+			}
+			article{
+				margin: 20px 0;
+			}
+			&.left{
+				text-align: center;
+			}
+			&.right{
+				border-left: 1px dashed $Smoke;
+			}
+		}
+	}
+}
