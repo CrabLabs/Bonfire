@@ -33,11 +33,12 @@
         </header>
 
         <section id="home">
+            <h1></h1>
         </section>
 
         <section id="about">
             <div class="container">
-                <h2>Bonfire v1.2</h2>
+                <h2>Bonfire v0.4</h2>
             </div>
         </section>
 
@@ -51,9 +52,31 @@
         </section>
 
         <section id="contact">
+            <div>
+                <h2>send us a message!</h2>
+                <ul id="visit-footer"><span>or visit us on</span>
+                    <li class="link-footer github"><a href="https://github.com/CrabLabs"></a></li>
+                    <li class="link-footer facebook"><a href="https://www.facebook.com/CrabLabs"></a></li>
+                    <li class="link-footer twitter"><a href="https://twitter.com/crabuy"></a></li>
+                </ul>
+                
+                <form action="post_contact.php" method="post">
+                    <input name="name" class="caja" type="text" placeholder="Name">
+                    <input name="email" class="caja" type="text" placeholder="Email">
+                    <textarea name="message" cols="" rows="" wrap="off" class="mensaje"  placeholder="Your message.."></textarea>
+                    <input name="send" type="submit" value="Send" id="send">
+                </form>
+            </div>
+
+            <ul id="social">
+                <li class="logo-footer ecobox"><a href="http://ecobox.crab.uy"></a></li>
+                <li class="logo-footer crab"><a href="#home" class="posone"></a></li>
+                <li class="logo-footer crabster"><a href="http://crabster.crab.uy"></a></li>
+            </ul>
         </section>
 
-        <footer>   
+        <footer>
+            <span id="copy">design &amp; develop <a href="http://crab.uy">crab.uy</a> - © 2013 crab labs</span>  
         </footer>
 
         <!-- build:js scripts/vendor.js -->

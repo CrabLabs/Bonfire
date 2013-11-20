@@ -1,0 +1,13 @@
+#home{
+	h1{
+		background-image: url(../images/logo_v2.png);
+		background-image: url(../images/logo_v2.svg), url(../images/logo_v2.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 250px;
+		left: calc(50% - 125px);
+		position: absolute;
+		top: calc(50% - 125px);
+		width: 250px;
+	}
+}
