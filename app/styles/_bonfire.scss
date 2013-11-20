@@ -1,5 +1,10 @@
 *{border: none;list-style: none;margin: 0 auto;padding: 0;text-decoration: none;}
 
+::selection{
+	background: rgba(0,0,0,0.07);
+	color: $Brick;
+}
+
 html, body{
     height: 100%;
 }
