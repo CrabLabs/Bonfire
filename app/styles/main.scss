@@ -1,5 +1,21 @@
 @import "variables";
-@import "general";
+@import "bonfire";
 
 /*Import the font*/
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+section{
+    display: block;
+    min-height: calc(100% - 40px);
+    padding-top: 40px;
+    width: 100%;
+}
+
+/*The sections*/
+@import "sections/header";
+@import "sections/home";
+@import "sections/about";
+@import "sections/start";
+@import "sections/getit";
+@import "sections/contact";
+@import "sections/footer";
