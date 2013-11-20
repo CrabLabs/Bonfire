@@ -2,149 +2,111 @@
 	background: $Lipstick;
 	min-height: calc(100% - 140px);
 	div{
-		border-bottom: 1px solid #444;
-		height: calc(100% - 300px);
-		margin: 0 auto;
-		padding: 20px 0;
-		width: 80%;
 		h2{
 			color: $White;
 			border: none;
 			text-align: center;
 		}
-		#visit-footer{
-			bottom: 20px;
-			display: block;
-			height: 28px;
-			margin: 0;
-			position: relative;
-			span{
-				bottom: 10px;
-				color: #666;
-				left: 0;
-				position: relative;
-				text-align: left;
-				width: auto;
+		ul{
+			text-align: center;
+			li{
+				display: inline-block;
 			}
-			.link-footer{
+			&#visit-us{
+				display: block;
 				height: 28px;
-				margin: 0 6px;
-				opacity: 0.15;
-				width: 28px;
-				transition: all 100ms;
-				a{
-					display: block;
-					height: 100%;
-					width: 100%;
+				span{
+					color: $White;
+					display: inline-block;
+					line-height: 28px;
+					text-align: left;
+					vertical-align: top;
 				}
-				&.github{
-					background-image: url(../images/contact/github.png);
-					background-image: url(../images/contact/github.svg), url(../images/contact/github.png);
-					background-repeat: no-repeat;
-					background-size: cover;
+				.link-contact{
+					height: 28px;
+					margin: 0 6px;
+					opacity: 0.5;
+					width: 28px;
+					transition: all 100ms;
+					a{
+						display: block;
+						height: 100%;
+						width: 100%;
+					}
+					&.github{
+						background-image: url(../images/contact/github.png);
+						background-image: url(../images/contact/github.svg), url(../images/contact/github.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&.facebook{
+						background-image: url(../images/contact/facebook.png);
+						background-image: url(../images/contact/facebook.svg), url(../images/contact/facebook.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&.twitter{
+						background-image: url(../images/contact/twitter.png);
+						background-image: url(../images/contact/twitter.svg), url(../images/contact/twitter.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&:hover{
+						opacity: 1;
+					}
 				}
-				&.facebook{
-					background-image: url(../images/contact/facebook.png);
-					background-image: url(../images/contact/facebook.svg), url(../images/contact/facebook.png);
-					background-repeat: no-repeat;
-					background-size: cover;
-				}
-				&.twitter{
-					background-image: url(../images/contact/twitter.png);
-					background-image: url(../images/contact/twitter.svg), url(../images/contact/twitter.png);
-					background-repeat: no-repeat;
-					background-size: cover;
-				}
-				&:hover{
-					opacity: 0.6;
+			}
+			&#products{
+				.logo-contact{
+					height: 100px;
+					margin: 20px;
+					opacity: 0.25;
+					width: 100px;
+					transition: all 100ms;
+					a{
+						display: block;
+						height: 100%;
+						width: 100%;
+					}
+					&.ecobox{
+						background-image: url(../images/contact/ecobox.png);
+						background-image: url(../images/contact/ecobox.svg), url(../images/contact/ecobox.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&.crab{
+						background-image: url(../images/contact/crab.png);
+						background-image: url(../images/contact/crab.svg), url(../images/contact/crab.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&.crabster{
+						background-image: url(../images/contact/crabster.png);
+						background-image: url(../images/contact/crabster.svg), url(../images/contact/crabster.png);
+						background-repeat: no-repeat;
+						background-size: cover;
+					}
+					&:hover{
+						opacity: 0.8;
+					}
 				}
 			}
 		}
 		form{
-			display: inline-block;
+			display: block;
+			margin: 50px auto 80px auto;
 			position: relative;
-			left: calc(50% - 160px);
 			width: 360px;
-			input, textarea{
-				background: $White;
-				border: none;
-				display: block;
-				font-style: italic;
-				font-weight: 300;
-				margin: 10px 0;
-				padding: 8px 10px;
-				width: 300px;
+			input.box, textarea{
+				width: 340px;
 			}
 			textarea{
 				height: 80px;
-				resize: none;
 			}
 			input#send{
-				background: $White;
-				color: $Gray;
-				font-style: normal;
-				font-weight: bold;
 				position: absolute;
-				right: 40px;
-				width: auto;
+				right: 0;
 			}
-		}
-	}
-	ul{
-		bottom: 100px;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-		&#social{
-		}
-		li{
-			color: $White;
-			display: inline-block;
-			&.logo-footer{
-				height: 100px;
-				margin: 0 20px;
-				opacity: 0.25;
-				width: 100px;
-				transition: all 100ms;
-				a{
-					display: block;
-					height: 100%;
-					width: 100%;
-				}
-				&.ecobox{
-					background-image: url(../images/contact/ecobox.png);
-					background-image: url(../images/contact/ecobox.svg), url(../images/contact/ecobox.png);
-					background-repeat: no-repeat;
-					background-size: cover;
-				}
-				&.crab{
-					background-image: url(../images/contact/crab.png);
-					background-image: url(../images/contact/crab.svg), url(../images/contact/crab.png);
-					background-repeat: no-repeat;
-					background-size: cover;
-				}
-				&.crabster{
-					background-image: url(../images/contact/crabster.png);
-					background-image: url(../images/contact/crabster.svg), url(../images/contact/crabster.png);
-					background-repeat: no-repeat;
-					background-size: cover;
-				}
-				&:hover{
-					opacity: 0.8;
-				}
-			}
-		}
-	}
-	span{
-		color: #666;
-		bottom: 20px;
-		left: calc(50% - 200px);
-		position: absolute;
-		text-align: center;
-		width: 400px;
-		a{
-			color: #999;
-			font-size: 1em;
 		}
 	}
 }

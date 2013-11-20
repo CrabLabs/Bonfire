@@ -57,10 +57,15 @@ input, textarea{
 textarea{
 	resize: none;
 }
-input#send{
-	background: $White;
-	color: $Gray;
+input.btn{
 	font-style: normal;
 	font-weight: bold;
 	width: auto;
+	&.white{
+		background: $White;
+		color: $Gray;
+	}
+	&:hover{
+		cursor: pointer;
+	}
 }
