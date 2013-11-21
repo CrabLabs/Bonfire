@@ -3,19 +3,23 @@ $Smoke: #f0f0f0;
 $Gray: #666;
 $Dark: #333;
 
-/*Define your project color palette*/
+/* Define your project color palette */
 $Lemon: #e3e1ca;
 $Orange: #faaf40;
 $Brick: #ed1c24;
 $Lipstick: #d4144a;
 $Purple: #660030;
 
-/*Define the font*/
+/* Define the font */
 $font: 'Open Sans', sans-serif;
 $light: 300;
 $regular: 400;
 $bold: 700;
 
+/* Standar Sizes */
+$bodyTopPadding: 40px;
+
+/* Media Queries Sizes */
 $mobile: "only screen and (max-width: 320px)";
 $mobile_mid: "only screen and (max-width: 640px)";
 $mobile_big: "only screen and (max-width: 1024px)";
