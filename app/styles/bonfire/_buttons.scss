@@ -1,0 +1,38 @@
+.btn{
+	font-style: normal;
+	font-weight: $bold;
+	opacity: 1;
+	width: auto;
+	transition: all 200ms;
+	&.black{
+		background: $Gray;
+		color: $White;
+	}
+	&.red{
+		background: $Lipstick;
+		color: $White;
+	}
+	&.white{
+		background: $White;
+		color: $Gray;
+	}
+	&.small{
+		font-size: 1em;
+	}
+	&.mid{
+		font-size: 1.5em;
+		padding: 12px 15px;
+	}
+	&.big{
+		font-size: 2em;
+		font-style: italic;
+		font-weight: $regular;
+		line-height: 2em;
+		padding: 16px 20px;
+	}
+	&:hover{
+		background: $Purple;
+		color: $White;
+		cursor: pointer;
+	}
+}

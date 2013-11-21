@@ -1,0 +1,21 @@
+p, a, li, span, h1, h2, h3, h4, h5, h6, input, textarea, select{
+	color: $Gray;
+	font-family: $font;
+}
+
+p, a, li, span{
+	font-size: 0.8em;
+	font-weight: $regular;
+	line-height:1.5em;
+}
+
+p a, li a, span a{
+	font-size: 1em;
+}
+
+a{
+	opacity: 0.75;
+	&.active, &:hover{
+		opacity: 1;
+	}
+}
