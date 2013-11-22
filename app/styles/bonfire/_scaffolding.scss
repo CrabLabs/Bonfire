@@ -11,9 +11,17 @@ html, body{
 }
 
 body{
-    background: $White;
     display: block;
     margin: 0;
     overflow-x: hidden;
     padding: 0;
+    @media (luminosity: normal) {
+	    background: $White;
+	}
+	@media (luminosity: dim) {
+	    background: $Smoke;
+	}
+	@media (luminosity: washed) {
+	    background: $Gray;
+	}
 }

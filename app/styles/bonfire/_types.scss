@@ -1,6 +1,14 @@
 p, b, i, a, li, span, h1, h2, h3, h4, h5, h6, input, textarea, select{
-	color: $Gray;
 	font-family: $font;
+	@media (luminosity: normal) {
+	    color: $Gray;
+	}
+	@media (luminosity: dim) {
+	    color: $Dark;
+	}
+	@media (luminosity: washed) {
+	    color: $Smoke;
+	}
 }
 
 p, a, li, span{
