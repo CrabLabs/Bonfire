@@ -1,5 +1,5 @@
 #contact{
-	background: $Lipstick;
+	background: $c4;
 	min-height: calc(100% - 140px);
 	div{
 		h2{
@@ -105,7 +105,7 @@
 			}
 			input#send{
 				position: absolute;
-				right: 0;
+				right: 20px;
 			}
 		}
 	}

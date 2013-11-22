@@ -8,4 +8,7 @@ footer{
 	&.light{
 		background: $Smoke;		
 	}
+	a{
+		border-bottom: 1px dotted $Gray;
+	}
 }

@@ -11,6 +11,7 @@
 @import "scaffolding";
 @import "types";
 @import "headers";
+@import "menus";
 @import "footers";
 @import "grid";
 @import "forms";
@@ -18,7 +19,7 @@
 
 ::selection{
 	background: rgba(0,0,0,0.07);
-	color: $Brick;
+	color: $c3;
 }
 
 // Components

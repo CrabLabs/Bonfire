@@ -15,6 +15,7 @@ p a, li a, span a{
 
 a{
 	opacity: 0.75;
+	text-decoration: none;
 	&.active, &:hover{
 		opacity: 1;
 	}
